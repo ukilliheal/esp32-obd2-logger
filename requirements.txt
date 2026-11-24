@@ -1,0 +1,6 @@
+# Mac-side tools (Python 3.12). Install with:  uv venv --python 3.12 .venv && uv pip install --python .venv -r requirements.txt
+obd==0.7.3              # python-OBD: ELM327 protocol + OBD2 decoding
+bleak==3.1.0            # Bluetooth LE (tools/ble_bridge.py)
+pyserial==3.5           # serial / socket:// links, ESP32 USB port
+ELM327-emulator==4.0.0  # fake car for testing without a vehicle
+esptool==5.6.0          # ESP32 chip info / flashing helper

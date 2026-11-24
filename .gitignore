@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Arduino / ESP32 build output (rebuild with arduino-cli)
+firmware/**/build/
+
+# macOS
+.DS_Store
+
+# Local Claude Code settings (machine-specific)
+.claude/settings.local.json
+firmware/**/build-demo/
+firmware/wokwi/shots/
+
+# Your own vehicle data (logs can identify a car; keep them out of a public repo)
+logs/
+reports/

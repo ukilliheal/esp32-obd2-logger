@@ -1,0 +1,9 @@
+# Wokwi simulation of the ESP32 + 0.91" OLED, running the display demo build.
+# Build it with ./run.sh (or the arduino-cli line in README.md), then run wokwi-cli here
+# or open diagram.json in VS Code with the Wokwi extension.
+[wokwi]
+version = 1
+# Full flash image (bootloader + partition table + app): the sketch uses a custom
+# partition table, which Wokwi only picks up from a full image.
+firmware = '../esp32_obd_bridge/build-demo/esp32_obd_bridge.ino.merged.bin'
+elf = '../esp32_obd_bridge/build-demo/esp32_obd_bridge.ino.elf'
